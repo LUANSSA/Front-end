@@ -34,7 +34,7 @@ Eles não foram criados na versão 5 do HTML e nem são específicos para semân
 
 **Explicação retirada da plataforma dio.me, do curso bootcamp Carrefur**
  
- Já falamos anteriormente sobre os elementos **h1-h6** e, eles são essenciais para nos indicar visualmente a importância e localização de seções de texto na página, mas para textos maiores e mais densos usamos o elemento p.
+Já falamos anteriormente sobre os elementos **h1-h6** e, eles são essenciais para nos indicar visualmente a importância e localização de seções de texto na página, mas para textos maiores e mais densos usamos o elemento p.
 
 O **<p>** representa um parágrafo, mas ele não suporta apenas texto, podemos adicionar imagens, código, vídeos e vários outros tipos de conteúdo dentro dele.
 
