@@ -52,7 +52,8 @@ O **target** neste momento vai servir para nos ajudar a abrir nossos links em ou
 
 E em alguma parte deste texto vamos adicionar um hiperlink para outra página e um para nosso e-mail.
 
-Criarei um hyperlink para meu perfil no LinkedIn: adicione o hyperlink no atributo **href** e o valor **_blank** no atributo **target**, assim o link será aberto em outra aba. E em algum outro lugar do texto adicionarei meu e-mail e um link para ele, desta forma: 
+Criarei um hyperlink para meu perfil no LinkedIn: adicione o hyperlink no atributo **href** e o valor **_blank** no atributo **target**, assim o link será aberto em outra aba. E em algum outro lugar do texto adicionarei meu e-mail e um link para ele, desta forma:
+
 **a href="mailto:lucas@vilaboim.com" target="_blank">lucas@vilaboim.com /a**
 
 **Imagens**
