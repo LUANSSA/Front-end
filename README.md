@@ -31,3 +31,5 @@ Esse elemento representa o rodapé do conteúdo ou de parte dele, pois ele é ac
 **h1 - h6**
 
 Eles não foram criados na versão 5 do HTML e nem são específicos para semântica, mas servem para esse propósito. São utilizados para marcar a importância dos títulos, sendo <h1> o mais importante e <h6> o menos. Uma dica: use apenas um <h1> por página, pois ele representa o objetivo da sua página.
+
+  **Explicação retirada da plataforma dio.me, do curso bootcamp Carrefur**
