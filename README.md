@@ -112,3 +112,16 @@ O atributo **href** representa o caminho do arquivo.
 **font-style**: Usamos o font-style para tornar um texto itálico, na maioria das vezes você usará apenas o valor italic para ele, mas se precisar tirar o itálico de um texto você pode usar o valor normal.
 
 **Explicação retirada da plataforma dio.me, do curso bootcamp Carrefur**
+
+**web safe fonts** são fonts que são encontradas na maioria dos dispositivos.
+
+**font-family: verdana, arial ...**
+
+**font-size: px ...**
+
+**font-style: normal, italic ...**
+
+**font-weight: normal, bold ...**
+
+**text-transform: uppercase, lowercase, capitalize**
+
