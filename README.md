@@ -129,8 +129,22 @@ O atributo **href** representa o caminho do arquivo.
 
 **Listas**
 
-**list-style-type**: *square*, *"\1F44D"* ...;
+**list-style-type**: *square*, *"\1F44D"* ...
 
 **list-style-image**: *url("") ...*
+
+**Dimensão e alinhamento**
+
+**width**: *100%*, *px* ...
+
+**max-width**: *100%*, *px* ...
+
+**height**: *100%*, *px* ...
+
+**max-height**: *100%*, *px* ...
+
+**margin**: *auto*, *px* ...
+
+**text-aling**: *left*, *right*, *jusify* ...
 
 
