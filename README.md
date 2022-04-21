@@ -86,3 +86,8 @@ Possui em ordem,o **content**, o **padding**,o **border** e o **margin**
 São elementos html, representados no css, como seletores. Existe diferentes tipos de seletores, como por exemplo , **header**, **div**, **nav**, que representam os elementos html. Usar esse tipo de seletor, altera todos os elementos html **header**, **div**, **nav** e por ai vai. Por isso a necessidade de específicar ou agrupar elementos html para a estilização. Através do identificador único **id**, você pode dar uma identificação, não repetível, a um elemento html e criar uma estilização apenas para esse elemento. Outro modo é usando **class** e identificando elementos html com essa classe, podendo assim, criar uma estilização específica para esse grupo de elementos html. 
 
 **Peseudo-classe**: Faz com que um elemento HTML sofra alterações causadas pela interação do usuário, como mover o mouse por cima ou clicar nesse elemento. Um exemplo é o **:hover** logo após um seletor. **div:hover**
+
+**link rel="stylesheet" href="style.css**
+
+O atributo **rel** representa o tipo de arquivo.
+O atributo **href** representa o caminho do arquivo.
