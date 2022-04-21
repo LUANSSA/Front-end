@@ -103,7 +103,7 @@ São elementos html, representados no css, como seletores. Existe diferentes tip
 O atributo **rel** representa o tipo de arquivo.
 O atributo **href** representa o caminho do arquivo.
 
-**background-color**, **font-size**, **color**, são propriedades css que vão alterar as caractéristicas dos elementos html. Cada propriedade css possuí um valor, por exemplo **#ffffff** para **background-color**, **16px** para **font-size** e etc. 
+**background-color**, **font-size**, **color**, são propriedades css que vão alterar as caractéristicas dos elementos html. Cada propriedade css possuí um valor, por exemplo *#ffffff* para **background-color**, *16px* para **font-size** e etc. 
 
 **font-family**: Com o font-family podemos alterar a fonte dos nossos textos, como uma fonte da internet ou uma que esteja instalada no nosso computador, mas vamos nos ater às fontes seguras, chamadas de web safe fonts. Essas fontes são chamadas assim pois são encontradas em quases todos os sistemas e podem ser usadas sem preocupação.
 
@@ -115,20 +115,20 @@ O atributo **href** representa o caminho do arquivo.
 
 **web safe fonts** são fonts que são encontradas na maioria dos dispositivos.
 
-**font-family: verdana, arial ...**
+**font-family**: *verdana*, *arial* ...
 
-**font-size: px ...**
+**font-size**: *px* ...
 
-**font-style: normal, italic ...**
+**font-style**: *normal*, *italic* ...
 
-**font-weight: normal, bold ...**
+**font-weight**: *normal*, *bold* ...
 
-**text-transform: uppercase, lowercase, capitalize**
+**text-transform**: *uppercase*, *lowercase*, *capitalize* ...
 
-**text-decoration: underline ... **
+**text-decoration**: *underline* ... 
 
 **Listas**
 
-**list-style-type: square, "\1F44D"...;**
+**list-style-type**: *square*, *"\1F44D"* ...;
 
 
