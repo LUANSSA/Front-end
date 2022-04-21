@@ -104,3 +104,11 @@ O atributo **rel** representa o tipo de arquivo.
 O atributo **href** representa o caminho do arquivo.
 
 **background-color**, **font-size**, **color**, são propriedades css que vão alterar as caractéristicas dos elementos html. Cada propriedade css possuí um valor, por exemplo **#ffffff** para **background-color**, **16px** para **font-size** e etc. 
+
+**font-family**: Com o font-family podemos alterar a fonte dos nossos textos, como uma fonte da internet ou uma que esteja instalada no nosso computador, mas vamos nos ater às fontes seguras, chamadas de web safe fonts. Essas fontes são chamadas assim pois são encontradas em quases todos os sistemas e podem ser usadas sem preocupação.
+
+**font-size**: O font-size nos ajuda a mudar o tamanho do texto, existem algumas unidades de medida para ele mas por enquanto os pixels são suficientes para nós.
+
+**font-style**: Usamos o font-style para tornar um texto itálico, na maioria das vezes você usará apenas o valor italic para ele, mas se precisar tirar o itálico de um texto você pode usar o valor normal.
+
+**Explicação retirada da plataforma dio.me, do curso bootcamp Carrefur**
