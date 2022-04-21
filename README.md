@@ -82,6 +82,12 @@ E o elemento **li** é um item dentro de uma dessas listas. Um **li** pode conte
 
 O **Box Model** é a representação em "caixa", feita pelo navegador, de cada elemento html. E com CSS nós alteramos a aparência dessa "caixa" (largura, altura, cor de fundo, etc.) Cada **Box Model** possui em ordem,o **content**, o **padding**,o **border** e o **margin**.
 
+As margens (**margin**) são espaçamentos entre elementos;
+As bordas (**border**) ;
+O **padding** é um espaçamento entre as bordas e o conteúdo, a diferença para as margens é que declarações de imagem de fundo funcionam nele;
+O conteúdo (**content**) é o que o seu bloco representa, um texto, uma imagem, um vídeo;
+**Explicação retirada da plataforma dio.me, do curso bootcamp Carrefur**
+
 **Seletores**:
 São elementos html, representados no css, como seletores. Existe diferentes tipos de seletores, como por exemplo , **header**, **div**, **nav**, que representam os elementos html. Usar esse tipo de seletor, altera todos os elementos html **header**, **div**, **nav** e por ai vai. Por isso a necessidade de específicar ou agrupar elementos html para a estilização. Através do identificador único **id**, você pode dar uma identificação, não repetível, a um elemento html e criar uma estilização apenas para esse elemento. Outro modo é usando **class** e identificando elementos html com essa classe, podendo assim, criar uma estilização específica para esse grupo de elementos html. 
 
