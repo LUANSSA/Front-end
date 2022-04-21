@@ -82,13 +82,14 @@ E o elemento **li** é um item dentro de uma dessas listas. Um **li** pode conte
 
 O **Box Model** é a representação em "caixa", feita pelo navegador, de cada elemento html. E com CSS nós alteramos a aparência dessa "caixa" (largura, altura, cor de fundo, etc.) Cada **Box Model** possui em ordem,o **content**, o **padding**,o **border** e o **margin**.
 
-As margens (**margin**) são espaçamentos entre elementos;
+1 - O conteúdo (**content**) é o que o seu bloco representa, um texto, uma imagem, um vídeo;
 
-As bordas (**border**) ;
+2 - O **padding** é um espaçamento entre as bordas e o conteúdo, a diferença para as margens é que declarações de imagem de fundo funcionam nele;
 
-O **padding** é um espaçamento entre as bordas e o conteúdo, a diferença para as margens é que declarações de imagem de fundo funcionam nele;
+3 - As bordas (**border**) ;
 
-O conteúdo (**content**) é o que o seu bloco representa, um texto, uma imagem, um vídeo;
+4 - As margens (**margin**) são espaçamentos entre elementos;
+
 
 **Explicação retirada da plataforma dio.me, do curso bootcamp Carrefur**
 
@@ -101,3 +102,5 @@ São elementos html, representados no css, como seletores. Existe diferentes tip
 
 O atributo **rel** representa o tipo de arquivo.
 O atributo **href** representa o caminho do arquivo.
+
+**background-color**, **font-size**, **color**, são propriedades css que vão alterar as caractéristicas dos elementos html. Cada propriedade css possuí um valor, por exemplo **#ffffff** para **background-color**, **16px** para **font-size** e etc. 
