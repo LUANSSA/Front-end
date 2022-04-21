@@ -83,9 +83,13 @@ E o elemento **li** é um item dentro de uma dessas listas. Um **li** pode conte
 O **Box Model** é a representação em "caixa", feita pelo navegador, de cada elemento html. E com CSS nós alteramos a aparência dessa "caixa" (largura, altura, cor de fundo, etc.) Cada **Box Model** possui em ordem,o **content**, o **padding**,o **border** e o **margin**.
 
 As margens (**margin**) são espaçamentos entre elementos;
+
 As bordas (**border**) ;
+
 O **padding** é um espaçamento entre as bordas e o conteúdo, a diferença para as margens é que declarações de imagem de fundo funcionam nele;
+
 O conteúdo (**content**) é o que o seu bloco representa, um texto, uma imagem, um vídeo;
+
 **Explicação retirada da plataforma dio.me, do curso bootcamp Carrefur**
 
 **Seletores**:
