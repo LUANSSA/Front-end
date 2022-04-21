@@ -78,4 +78,4 @@ E o elemento **li** é um item dentro de uma dessas listas. Um **li** pode conte
 
 **Box Model**
 
-Possui em ordem,o **content**, o **padding**,o **border**,o **margin**
+Possui em ordem,o **content**, o **padding**,o **border** e o **margin**
