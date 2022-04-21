@@ -125,3 +125,10 @@ O atributo **href** representa o caminho do arquivo.
 
 **text-transform: uppercase, lowercase, capitalize**
 
+**text-decoration: underline ... **
+
+**Listas**
+
+**list-style-type: square, "\1F44D"...;**
+
+
