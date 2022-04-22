@@ -1,0 +1,54 @@
+/*Pesquisar sobre web kits*/
+
+/*Criando variáveis dentro do css*/
+:root{
+    /*Cores principais do site*/
+    --vermelho: #E50914;
+    --preta: #141414;
+    --colorLinks: #AAA;
+    --colorLinksHover: #fff;
+}
+
+/*Selecionando todos os elementos html*/
+*{
+    padding: 0px;
+    margin: 0px;
+    /*Para o elemento filho não ultrapassa a borda do elemento pai*/
+    box-sizing: border-box;
+}
+/*********** CORPO DO SITE ***********/
+body{
+    background-color:var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/************ CABEÇALHO DO SITE ************/
+header .container{
+
+}
+header .container{
+    /*Alinha por padrão elementos em linha(row)*/
+    display: flex;
+    flex-direction: row;
+    /*Alinhando os elementos filhos ao centro da Box-model pai - Alinhamento Vertical*/
+    align-items: center;
+    /*Determina qual posição, horizontalmente, os elementos filhos vão ficar*/
+    justify-content: space-between;
+}
+header .logo{
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+    margin-left: 5px;
+}
+header nav a{
+    /*Retirando sublinhado dos links*/
+    text-decoration: none;
+
+    color: var(--colorLinks);
+    margin-right: 10px;
+}
+/*Mudando cor dos links ao passar mouse por cima*/
+header nav a:hover{
+    color: var(--colorLinksHover);
+}
