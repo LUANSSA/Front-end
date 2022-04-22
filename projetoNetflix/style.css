@@ -20,6 +20,7 @@
 body{
     background-color:var(--preta);
     font-family: 'Times New Roman', Times, serif;
+    color:#fff;
 }
 
 /************ CABEÇALHO DO SITE ************/
@@ -51,4 +52,26 @@ header nav a{
 /*Mudando cor dos links ao passar mouse por cima*/
 header nav a:hover{
     color: var(--colorLinksHover);
+}
+/*********** MIOLO DO SITE - FILME PRINCIPAL ***********/
+.filme-principal{
+    font-size: 16px;
+    /*Usando imagem para background e gradiente para ler melhor o texto em cima da imagem*/
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("img/houseofcardsCapa.jpg");
+    
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    /*Com flex-direction está em coluna, justify-content centraliza Verticalmente*/
+    justify-content: center;
+    /*Como flex-direction está em coluna, justify-content determina a posição Horizontal dos elementos*/
+    align-items: flex-start;
+}
+.titulo{
+    font-size: 40px;
+}
+.filme-principal .descricao{
+    margin-bottom: 40px;
 }
