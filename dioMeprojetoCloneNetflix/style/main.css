@@ -1,0 +1,126 @@
+/*Pesquisar sobre web kits*/
+
+/*Criando variáveis dentro do css*/
+:root{
+    /*Cores principais do site*/
+    --vermelho: #E50914;
+    --preta: #141414;
+    --colorLinks: #AAA;
+    --colorLinksHover: #fff;
+}
+
+/*Selecionando todos os elementos html*/
+*{
+    padding: 0px;
+    margin: 0px;
+    /*Para o elemento filho não ultrapassa a borda do elemento pai*/
+    box-sizing: border-box;
+}
+/*********** CORPO DO SITE ***********/
+body{
+    background-color:var(--preta);
+    font-family: 'Arial', Times, serif;
+    color:#fff;
+}
+
+/************ CABEÇALHO DO SITE ************/
+header .container{
+
+}
+header .container{
+    /*Alinha por padrão elementos em linha(row)*/
+    display: flex;
+    flex-direction: row;
+    /*Alinhando os elementos filhos ao centro da Box-model pai - Alinhamento Vertical*/
+    align-items: center;
+    /*Determina qual posição, horizontalmente, os elementos filhos vão ficar*/
+    justify-content: space-between;
+}
+header .logo{
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+    /*margin-left: 5px;*/
+}
+header nav a{
+    /*Retirando sublinhado dos links*/
+    text-decoration: none;
+
+    color: var(--colorLinks);
+    margin-left: 10px;
+}
+/*Mudando cor dos links ao passar mouse por cima*/
+header nav a:hover{
+    color: var(--colorLinksHover);
+}
+/*********** MIOLO DO SITE - FILME PRINCIPAL ***********/
+.filme-principal{
+    font-size: 16px;
+    /*Usando imagem para background e gradiente para ler melhor o texto em cima da imagem*/
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../img/houseofcardsCapa.jpg");
+    
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    /*Como flex-direction está em coluna, justify-content centraliza Verticalmente*/
+    justify-content: center;
+    /*Como flex-direction está em coluna, justify-content determina a posição Horizontal dos elementos*/
+    align-items: flex-start;
+
+}
+.filme-principal .container{
+   width: 70%;
+}
+.container{
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.titulo{
+    margin-top: 15%;
+    margin-bottom: 5px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.filme-principal .descricao{
+    margin-bottom: 40px;
+}
+.botao{
+    background-color: rgba(0,0,0,0.5);
+    border: none;
+    color: #fff;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    /*Cuida da parte da transição entre animação e outra*/
+    transition: 0.5s ease all;
+}
+.botao:hover{
+    background-color: #fff;
+    color: #000;
+}
+.botao i{
+    margin-right: 8px;
+}
+
+/*Estilização das imagens do carrosel*/
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+/*Carrosel filmes*/
+.carrosel-filmes{
+    margin-top: 5px;
+}
+.carrosel-filmes .item:hover{
+    border: var(--colorLinks) solid 1px;
+}

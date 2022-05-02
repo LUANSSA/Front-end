@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!--Cabeça do site-->
+    <meta charset="UTF-8"/>
+    <meta name="voewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Netflix</title>
+
+    <!--Link do documento css-->
+    <link rel="stylesheet" type="text/css" href="style/main.css"/>
+    <!-- Resposividade css-->
+    <link rel="stylesheet" type="text/css" href="style/responsive.css"/>
+    <!--owl css-->
+    <link rel="stylesheet" type="text/css" href="./style/owl/owl.carousel.css"/>
+    <link rel="stylesheet" type="text/css" href="./style/owl/owl.theme.default.css"/>
+
+</head>
+<!--Corpo do site-->
+<body>
+    <!--Cabeçalho do site-->
+    <header>
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#">Séries</a>
+                <a href="#filmes">Filmes</a>
+                <a href="#">Documentários</a>
+            </nav>
+        </div>
+    </header>
+    <!--Miolo do site-->
+    <main>
+        <div class="filme-principal">
+            <!--container é uma classe wrapper -->
+            <div class="container">
+                <h3 class="titulo">HOUSE OF CARDS</h3>
+                <p class="descricao">Um político inescrupuloso não mede esforços para conquistar o poder nos EUA neste drama vencedor do Emmy e do Globo de Ouro. Assista agora a nova temporada de House of Cards que está impordível</p>
+                <div class="botoes">
+                    <!--role serve para identificar que é um botão independente do lugar que o arquivo html seja renderizado-->
+                    <!-- A classe fa-play e fa-circle-info importam os icones da página fontawesome-->
+                    <button role="button" class="botao"><i class="fa-solid fa-play"></i>ASSISTIR AGORA</button>
+                    <button role="button" class="botao"><i class="fa-solid fa-circle-info"></i>MAIS INFORMAÇÕES</button>
+                </div>
+            </div>
+            
+        </div>
+
+        </div>
+    </main>
+    <div id="filmes" class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <a onclick="clickFilme(1)">
+                    <img class="box-filme" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/tU9m4SyzhHczlFZJvEPsfoyHymq.jpg" alt="star wars 1 a ameaça fantasma"/>
+                </a>
+            </div>
+            <div class="item">
+                <a onclick="clickFilme(2)">
+                    <img class="box-filme" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/t4UH0AJql4paQMq4Dlg1gk2tqhk.jpg" alt="capitão fantastico"/>
+                </a>
+            </div>
+            <div class="item">
+                <a onclick="clickFilme(3)">
+                    <img class="box-filme" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/hJPsIaBEReV2byAUqUelqQKimy2.jpg" alt="o céu está em todo lugar"/>
+                </a>
+            </div>
+            <div class="item">
+                <a onclick="clickFilme(4)">
+                    <img class="box-filme" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/l1FfRmKRNXRSqXT5GlMo16MX2LX.jpg" alt="harry potter e a pedra filosofal"/>
+                </a>
+            </div>
+            <div class="item">
+                <a onclick="clickFilme(5)">
+                    <img class="box-filme" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/811j0Jf2D0mK1U6RxXJoZgOB29n.jpg" alt="harry potter e a camara secreta"/>
+                </a>
+            </div>
+            <div class="item">
+                <a onclick="clickFilme(6)">
+                    <img class="box-filme" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/fPM9jZHZAIo0JI4iMLpm5pC4OLw.jpg" alt="interstellar"/>
+                </a>
+            </div>
+            <div class="item">
+                <a onclick="clickFilme(7)">
+                    <img class="box-filme" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/2WIwz0qJpnVAiofTAhrmhbKxuvE.jpg" alt="homem aranha"/>
+                </a>
+            </div>
+            <div class="item">
+                <a onclick="clickFilme(8)">
+                    <img class="box-filme" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/zYvD1TZfGF2RHe1078MULl78nsV.jpg" alt="a extraordinária garota chamada estrela"/>
+                </a>
+            </div>
+           
+        </div>
+    </div>
+    <!-- https://fontawesome.com/icons -->
+    <script src="https://kit.fontawesome.com/1946f8731e.js" crossorigin="anonymous"></script>
+    <!-- https://jquery.com/download/ -->
+    <script src="./js/owl/jquery.js"></script>
+    <!-- https://owlcarousel2.github.io/OwlCarousel2/ -->
+    <script src="./js/owl/owl.carousel.js"></script>
+    <!-- Setup -->
+    <script src="js/owl/setup.js"></script>
+
+</body>
+</html>
