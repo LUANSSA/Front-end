@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DOM</title>
+        <style>
+            :root{
+                --bg: dodgerblue;
+            }
+            *{
+                padding: 0px;
+                margin: 0px;
+            }
+            #teste{
+                display: flex;
+                justify-content: center;
+                width: 80%;
+                margin: 0 auto;
+                height: 120px;
+            }
+            #teste .teste_div{
+                width: 20%;
+                margin: 0 20px;
+                background: var(--bg);
+
+            }
+        </style>
+    </head>
+    <body>
+        <h1>DOM - Document Object Model</h1>
+        <h2>BOM - Browser Object Model</h2>
+        <section id="teste">
+            <div class="teste_div">
+                <h3>Primeira div</h3>
+            </div>
+            <div class="teste_div">
+                <h3>Segunda div</h3>
+            </div>
+            <div class="teste_div">
+                <h3>Terceira div</h3>
+            </div>
+        </section>
+        <div id="meu-elemento-id" class="meu-elemento-classe"></div>
+    </body>
+    <script>
+        let testeElement = document.getElementById("teste");
+        testeElement.style.border = "black solid 1px";
+        //document.createElement(element); //Criar um novo elemento html
+        //document.removeChild(element); //Remove um elemento filho
+        //document.appendChild(elment); //Adiciona um elemento filho
+        //document.replaceChild(newElement,oldElement); //Substitui um elemento por outro
+        const meuElemento = document.getElementById("meu-elemento-id");
+        meuElemento.classList.add("novo-estilo");
+        //Adiciona uma classe "novo-estilo no elemento que meuElemento representa
+        meuElemento.classList.remove("meu-elemento-classe");
+        //Remove a classe "meu-elemento-classe" no elemento que meuElemento representa
+        meuElemento.classList.toggle("dark-mode");
+        //Remove a classe "dar-mode" claso ela exista ou adiciona caso ela não exista
+    </script>
+</html>
