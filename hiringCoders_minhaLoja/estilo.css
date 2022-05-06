@@ -1,0 +1,10 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    margin: 0 30px;
+}
+.topo-header{
+    display: flex;
+}
