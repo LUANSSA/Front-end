@@ -1,11 +1,13 @@
 
-/* Tags */
-
-body{
+*{
+    margin: 0px;
+    padding: 0px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: darkviolet
 }
+/* Tags */
+
 p{
     text-align: justify;
     padding: 0 10px;
