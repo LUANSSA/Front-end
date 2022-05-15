@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Validador de CPF</title>
+</head>
+<body>
+    <div class="jumbotron">
+        <div class="container header">
+            <h1 class="page-header">Validador de CPF</h1>
+            <p>Construindo um validador de CPF, usando linguagem JavaScript, bootstrap e jquery.</p>
+        </div>
+        <div class="container formulario">
+            <form>
+                <div class="form-group">
+                    <div class="input-group input-group-lg">
+                        <span class="input-group-text" id="sizing-addon1">CPF</span>
+                        <input type="text" class="form-control" placeholder="Digite o CPF para validação" arial-describedby="sizing-addon1"/>
+                    </div>
+                    <small class="form-text text-muted">Digite somente números</small>
+                </div>
+                <button type="button" class="btn btn-outline-primary">Validar!</button>
+            </form>
+        </div>
+        <div class="container page-header">
+            <div id="success" class="alert alert-success" style="display: none;" role="alert">
+                <strong>Oba!</strong>seu CPF é válido!
+            </div>
+            <div id="error" class="alert alert-danger" style="display: none;" role="alert">
+                <strong>Ops</strong>seu CPF não é inválido!
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
