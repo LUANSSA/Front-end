@@ -1,7 +1,7 @@
 console.log("JavaScript");
 function validar(){
     var cpf = document.getElementById("cpf_input").value;
-    //Limpando tela
+    //Limpando tela divs success e error de div span
     document.getElementById("success").style.display="none";
     document.getElementById("error").style.display="none";
     console.log(cpf);
@@ -9,14 +9,25 @@ function validar(){
     var resultadoValidacao = validarCpf(cpf);
 
     if(resultadoValidacao){
+        //Mostrando div success
         var success = document.getElementById("success");
         success.style.display="block";
+        //Personalizando span cpf
+        var spanCpf = document.getElementById("span-cpf");
+        spanCpf.style.color="#0f5132";
+        spanCpf.style.backgroundColor="#d1e7dd";
+        spanCpf.style.borderColor="#badbcc";
     }else{
+        //Mostrando div error
         var error = document.getElementById("error");
         error.style.display="block";
+        //Personalizando span cpf
+        var spanCpf = document.getElementById("span-cpf");
+        spanCpf.style.color="#842029";
+        spanCpf.style.backgroundColor="#f8d7da";
+        spanCpf.style.borderColor="#f5c2c7";
     }
 }
-
 
 function validarCpf(cpf){
     if(cpf.length != 11){
@@ -34,6 +45,7 @@ function validarCpf(cpf){
         return (resCpf1 && resCpf2);
     }
 }
+
 function validarDigito1(numeros, digitos){
     var soma = 0;
     for(i = 10; i > 1; i--){
@@ -45,10 +57,6 @@ function validarDigito1(numeros, digitos){
     var modulo = soma % 11;
     //caso soma/11 seja 10 ou 11 o res é 0
     var res = modulo < 2 ? 0 : 11 - modulo;
-    console.log("Soma: ", soma);
-    console.log("Módulo: ", modulo);
-    console.log("Res: ", res);
-    console.log("Penultimo digito: ", digitos.charAt(0));
     //caso o res seja diferente do primeiro digito retorna falso
     if(res != digitos.charAt(0)) return false;
 
@@ -61,11 +69,9 @@ function validarDigito2(numeros, digitos){
     }
     var modulo = soma % 11;
     var res = modulo < 2 ? 0 : 11 - modulo;
-    console.log("Soma: ", soma);
-    console.log("Módulo: ", modulo);
-    console.log("Res: ", res);
-    console.log("Ultimo digito: ", digitos.charAt(1));
+    //caso o res seja diferente do segundo digito retorna falso
     if(res != digitos.charAt(1)) return false;
+
     return true;
 }
 

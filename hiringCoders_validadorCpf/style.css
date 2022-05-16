@@ -3,6 +3,12 @@
     padding: 0px;
 }
 .header{
-    padding-top: 20px;
+    margin-top: 20px;
     height: 120px;
+}
+.form-group{
+    margin-bottom: 8px;
+}
+.btn{
+    margin-bottom: 16px;
 }
